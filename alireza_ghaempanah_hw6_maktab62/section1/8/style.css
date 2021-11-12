@@ -1,0 +1,32 @@
+.container{
+    width: 100%;
+}
+.main{
+    width: 50%;
+    background: #e8e8e8;
+    border-radius: 5px;
+    padding: 5px;
+}
+h3{
+    box-shadow: 0px 0px 5px #007724;
+    border-radius: 5px;
+    color: #007724;
+    cursor: pointer;
+    margin: 10px 0px ;
+}
+h4{
+    margin:0px;
+}
+.content-box{
+    display: none;
+    background: #f6f6f6;
+    padding: 20px;
+    
+}
+.default{
+    display: block;
+}
+i{
+    font-family:'FontAwesome';
+    padding: 0px 6px;
+}

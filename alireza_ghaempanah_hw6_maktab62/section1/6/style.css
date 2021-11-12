@@ -1,0 +1,29 @@
+.container{
+    width: 100%;
+}
+.main{
+    width: 50%;
+    display: flex;
+    color: #201c1c;
+    background-color: #ff4a13;
+    height: 20px;
+}
+.main>li{
+    display: inline-flex;
+    width: 30%;
+}
+ul{
+    list-style: none;
+}
+li{
+    cursor: pointer;
+}
+.dropdown{
+    top: 36px;
+    position: absolute;
+    background: #ff4a13;
+    width: 110px;
+    text-align: left;
+    padding: 5px;
+    display: none;
+}

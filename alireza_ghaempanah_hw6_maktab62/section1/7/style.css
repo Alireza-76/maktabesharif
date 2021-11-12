@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 30px auto;
+    max-width: 1200px;
+}
+
+.progress-bar {
+    width: 100%;
+    border: 1px solid #ddd;
+}
+.progress {
+    width: 0%;
+    height: 30px;
+    background-color: #f3bb44;
+}

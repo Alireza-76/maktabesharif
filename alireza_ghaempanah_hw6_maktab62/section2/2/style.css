@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+.container {
+    max-width: 1200px;
+    text-align: center;
+    margin: auto;
+    padding: 15px;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.flex .box {
+    margin-bottom: 20px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.full-width {
+    width: 100%;
+}
+
+.third-width {
+    width: 33.333333%;
+}
+
+.fourth-width {
+    width: 25%;
+}
+
+.white-text {
+    color: #fff;
+}
+
+.blue-background {
+    background-color: rgb(60, 138, 228);
+}
+
+.section-1 {
+    min-height: 100px;
+}
+
+h1 {
+    font-weight: 200;
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+.gray-background {
+    background-color: #eeeeee;
+}
+
+.section-2 {
+    padding: 20px;
+}
+
+.section-2:not(:last-child) {
+    padding-right: 20px;
+}
+
+h3 {
+    font-weight: 900;
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+
+.section-2 p {
+    font-size: 15px;
+}
+
+.section-3 {
+    padding: 30px 20px;
+    min-height: 150px;
+}
+
+.section-3:not(:last-child) {
+    padding-right: 20px;
+}
+
+.colored-box p {
+    font-weight: 200;
+    font-size: 18px;
+}
+
+.orange-background {
+    background-color: rgb(231, 187, 93);
+}
+
+.light-blue-background {
+    background-color: rgb(93, 231, 197);
+}
+
+.dark-pink-background {
+    background-color: rgb(231, 93, 127);
+}
+
+@media screen and (min-width: 800px) and (max-width: 1000px) {
+    .fourth-width {
+        width: 33.333333%;
+    }
+    .fourth-width:last-child {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 800px) {
+    .third-width {
+        width: 50%;
+    }
+    .third-width:last-child {
+        width: 100%;
+    }
+
+    .fourth-width {
+        width: 50%;
+    }
+}
+@media screen and (max-width: 600px) {
+    .third-width {
+        width: 100%;
+    }
+
+    .fourth-width {
+        width: 100%;
+    }
+
+    .dark-pink-background{
+        display: none
+    }
+}
